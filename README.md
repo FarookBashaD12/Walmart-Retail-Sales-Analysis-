@@ -8,7 +8,10 @@ This project focuses on analyzing Walmart store sales data using **Python** and 
 
 ## Dataset Used
 
-- **Walmart Sales Dataset** (contains features like store number, department, weekly sales, holidays, temperature, fuel price, and CPI)
+- **Walmart Sales Dataset** 
+- <a href="https://github.com/FarookBashaD12/Walmart-Retail-Sales-Analysis-/blob/main/features.csv">features</a>
+- <a href="https://github.com/FarookBashaD12/Walmart-Retail-Sales-Analysis-/blob/main/stores.csv">stores</a>
+- <a href="https://github.com/FarookBashaD12/Walmart-Retail-Sales-Analysis-/blob/main/train.csv">train</a>
 
 ---
 
@@ -61,5 +64,4 @@ This analysis helps Walmart and similar retail chains:
 
 ---
 
-## 📂 Project Structure
 
