@@ -2,7 +2,7 @@
 
 ## Project Objective
 
-This project focuses on analyzing Walmart store sales data using **Python** and **Pandas** in a **Jupyter Notebook**. The goal is to identify trends, understand seasonal effects, evaluate sales by store and department, and extract key business insights to support data-driven decision making.
+This project is an end-to-end analysis and interactive dashboard solution for Walmart’s retail sales data. Using **Python** (for data preparation and cleaning) and **Power BI** (for business intelligence visualization), the goal is to extract actionable insights on store performance, holiday impact, efficiency, and key sales drivers across over 45 Walmart stores.
 
 ---
 
@@ -17,11 +17,11 @@ This project focuses on analyzing Walmart store sales data using **Python** and 
 
 ## Key Business Questions
 
-- Which store has the highest sales?
-- What is the impact of holidays on sales?
-- How do different departments perform over time?
-- Are there seasonal trends in sales?
-- How does temperature or fuel price affect weekly sales?
+-Which stores and departments drive the highest sales?
+-What is the impact of major holidays on sales patterns?
+-How does sales performance change across months, years, and regions?
+-Which store types (A, B, C) and sizes outperform others?
+-What external trends (fuel price, markdown) influence sales?
 
 ---
 
@@ -33,21 +33,30 @@ This project focuses on analyzing Walmart store sales data using **Python** and 
 - Created visualizations using **Matplotlib** and **Seaborn**
 - Derived insights on holiday performance, temperature effect, and store-wise comparisons
 
+## Analysis & Dashboard Features
+
+-KPI Tiles: Total sales, holiday vs. non-holiday sales, markdown totals, sales efficiency, week-over-week growth.
+-Trends: Sales by month, by store, and by department.
+-Store Comparison: Sales heatmap by store and type, top-performing locations.
+-Category Insights: Sales breakdown by type, department, and year.
+-Interactivity: Slicers/filters for date, store, type, and holiday period.
+
 ---
 
 ## Key Insights
 
-- **Store X** has the highest total sales overall
-- Sales tend to **drop during holidays** in some stores while others peak
-- There is a clear **seasonal trend**, with strong sales during certain months
-- Departmental performance varies significantly by store
-- Minor negative correlation between **temperature** and sales in colder regions
+-Total Sales: 6.74bn; strongest months are April–August and November–December.
+-**Store 20** consistently outperforms in total sales.
+-Holiday Effects: **Holiday weeks generate over 505M sales**, but the impact varies by store and department.
+-Type Performance: Type **A** stores account for 64% of sales.
+-Markdown: Nearly 2.8bn in markdowns, affecting weekly and storewise performance.
 
 ---
 
 ## Tools & Technologies
 
-- **Python**  
+- **Python**
+- **Power BI** for dashboarding, DAX calculations, and interactive visualizations
 - **Jupyter Notebook**  
 - **Pandas, NumPy** – data cleaning & analysis  
 - **Matplotlib, Seaborn** – visualization
@@ -61,6 +70,7 @@ This analysis helps Walmart and similar retail chains:
 - Identify high-performing stores and departments
 - Adjust inventory and marketing strategies during holiday seasons
 - Understand external factors (weather, fuel) influencing sales
+- Optimizes holiday and markdown strategies
 
 ---
 
